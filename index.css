@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  background-color: rgb(67, 202, 219);
+  margin: 8px;
+}
+.footer {
+  background-color: pink;
+  text-align: center;
+  line-height: 100px;
+  font-family: "Poiret One", cursive;
+}
+.header {
+  background-color: rgb(67, 202, 219);
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  height: 50px;
+}
+
+.container-two,
+.purple-container {
+  background-color: purple;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-flow: column;
+  width: 100%;
+}
+.list {
+  padding-left: 50px;
+  font-family: "Crimson Text", serif;
+}
+.list-two {
+  padding-left: 20px;
+  font-family: "Crimson Text", serif;
+}
+.list-three {
+  display: flexbox;
+  flex-wrap: nowrap;
+  width: 200px;
+  padding-left: 20px;
+  font-family: "Crimson Text", serif;
+}
+
+.img {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-flow: column-reverse;
+  flex-basis: calc(100% / 3);
+}
+.container-three {
+  display: flex;
+  flex-flow: row;
+  width: auto;
+  margin: 10px;
+  flex-direction: column;
+}
+.container-four {
+  display: flex;
+  flex-flow: row;
+}
+.container-three-one {
+}
+
+.container-three-two {
+  min-height: 50px;
+}
+.container-three-three {
+  min-height: 50px;
+}
+.container-three-four {
+  display: flex;
+  flex-flow: column;
+  width: auto;
+}
