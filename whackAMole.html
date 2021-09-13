@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whack A Mole</title>
+  </head>
+  <style>
+    .container,
+    .container2,
+    .allBoxes {
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .allBoxes {
+      line-height: 100px;
+      text-align: center;
+      cursor: pointer;
+      width: 150px;
+      margin: 2px;
+      height: 100px;
+      border: 2px solid black;
+
+      display: inline-block;
+    }
+
+    .score {
+      width: 100px;
+    }
+    #timer {
+      width: 100px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="container2">
+        <div class="allBoxes" id="div1"></div>
+        <div class="allBoxes" id="div2"></div>
+        <div class="allBoxes" id="div3"></div>
+        <div class="allBoxes" id="div4"></div>
+        <div class="allBoxes" id="div5"></div>
+        <div class="allBoxes" id="div6"></div>
+        <div class="allBoxes" id="div7"></div>
+        <div class="allBoxes" id="div8"></div>
+        <div class="allBoxes" id="div9"></div>
+        <div class="allBoxes" id="div10"></div>
+        <div class="allBoxes" id="div11"></div>
+        <div class="allBoxes" id="div12"></div>
+        <div class="allBoxes" id="div14"></div>
+        <div class="allBoxes" id="div15"></div>
+        <div class="allBoxes" id="div16"></div>
+        <div class="allBoxes" id="div17"></div>
+        <div class="allBoxes" id="div18"></div>
+
+        <div class="allBoxes" id="div19"></div>
+        <div class="allBoxes" id="div20"></div>
+        <div class="allBoxes" id="div21"></div>
+        <div class="allBoxes" id="div22"></div>
+        <div class="allBoxes" id="div23"></div>
+        <div class="allBoxes" id="div24"></div>
+        <div class="allBoxes" id="div25"></div>
+      </div>
+    </div>
+    <div class="timer">
+      <p>Your time left <span id="timer"></span> seconds</p>
+    </div>
+    <div class="score">Your score is</div>
+    <button>
+      <input type="button" value="Start Game" id="start" />
+    </button>
+    <script src="whackAMole.js"></script>
+  </body>
+</html>
